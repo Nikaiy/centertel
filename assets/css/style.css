@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,700;1,300;1,400;1,600&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header .container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--nav ul{
+    display: flex;
+}
+
+.header--nav ul li{
+    display:inline-flex;
+    border-bottom: 2px solid #fff;
+}
+
+.header--nav ul li:hover {
+    border-bottom: 2px solid #2696c5;
+}
+
+.header--nav a {
+    padding: 20px;
+    font-size: 20px;
+    font-weight:600;
+    font-style: italic;
+    color: #28bfbf;
+}
+
+.header--nav a:hover {
+    color: #2696c5;
+}
+
+.area1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 600px;
+}
+
+.area1--text {
+    display: flex;
+    align-items: center;
+    background-color: #28bfbf;
+}
+
+.area1--text--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    width: 700px;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.area1--text--info h1 {
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    font-size: 28px;
+    word-spacing: 10px;
+    color: #28bfbf;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.area1--text--info p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.area1--img {
+    background-image: url('../images/pg1.jpg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.area2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 600px;
+    background-color: #28bfbf;
+}
+
+.area2--text {
+    align-items: center;
+}
+
+.area2--img {
+    background-image: url('../images/pg2.jpg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.area3 {
+    width: 100vw;
+}
+
+.area3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area3--title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Bitter', serif;
+    color: #28bfbf;
+}
+
+.fibra--optica h2 {
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.area3--title-2 h2 {
+    color: black;
+}
+
+.area3--cards--optica  {
+    display: flex;
+    gap: 0px 50px;
+}
+
+.fibra--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #28bfbf;
+    border-radius: 20px;
+    width: 255px;
+    height: 439px;
+}
+
+.fibra--mb {
+    font-size: 50px;
+    font-weight: bold;
+    color: #28bfbf;
+}
+
+.fibra--valor {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fibra--valor span {
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+}
+
+.fibra--bonus ul {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.fibra--bonus ul li {
+    font-size: 18px;
+    margin: 20px 0px;
+    color: #28bfbf;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #28bfbf;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+.area4 {
+    margin-top: 60px;
+    background-color: #28bfbf;
+    padding-bottom: 100px;
+}
+
+.area4--title-2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.area4 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area3.fibra--optica h2 {
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+
+.area4--cards--optica  {
+    display: flex;
+    gap: 0px 50px;
+}
+
+
+/* css dark*/
+.area4 .fibra--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 255px;
+    height: 439px;
+}
+
+.area4 .fibra--mb {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.area4 .fibra--valor {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.area4 .fibra--valor span {
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+}
+
+.area4 .fibra--bonus ul {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.area4 .fibra--bonus ul li {
+    font-size: 18px;
+    margin: 20px 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.area4 .button {
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #28bfbf;
+}
+
+.area4 .button:hover {
+    background-color: #000;
+}
+
+.area5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.area5 .container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.area5 .container h1 {
+    margin: 40px 0px;
+}
+
+.speedtest {
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.speedtest img {
+    width: 500px;
+    height: 200px;
+}
+
+footer {
+    background-color: #000;
+    padding: 50px;
+}
+
+footer .container {
+    align-items: center;
+}
+
+.footer--info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--info--doc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 5px;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    color: #fff;
+}
+
+.footer-img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.footer--info--doc img {
+    width: 18px;
+    height: 18px;
+}
+
+
+/*laptop*/
+@media (min-width:1024px) {
+   .area1--text--info {
+    width: 450px;
+    height: 450px;
+   }
+
+   .area2 {
+    margin-top: -1px;
+   }
+
+   .area3--cards--optica, .area4--cards--optica {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+    .fibra--card {
+        width: 45%;
+    }
+
+    .area4 .fibra--card {
+        width: 45%;
+    }
+
+}
+
+/* Tablet */
+
+@media (min-width:768px) and (max-width:1023px) {
+    .area1 {
+        grid-template-columns: 3fr 1fr;
+    }
+    .area2 {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .area1--text--info {
+        width: 450px;
+        height: 450px;
+       }
+    
+       .area2 {
+        margin-top: -1px;
+       }
+    
+       .area3--cards--optica, .area4--cards--optica {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+        .fibra--card {
+            width: 45%;
+        }
+    
+        .area4 .fibra--card {
+            width: 45%;
+        }
+}
+
+
+/* mobile */
+@media (max-width:767px) {
+    .header--nav {
+        display: none;
+    }
+
+    .area1 {
+        grid-template-columns: 1fr 0fr;
+    }
+    .area2 {
+        grid-template-columns: 0fr 1fr;
+        display: none;
+    }
+
+    .area1--text--info {
+        padding: 0px 20px;
+        margin: 0px 10px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .area1--text--info h1 {
+        font-size: 18px;
+        word-spacing: 0px;
+        text-align: center;
+    }
+
+    .area1--text--info p {
+        font-size: 16px;
+    }
+    
+       .area2 {
+        margin-top: -1px;
+       }
+    
+       .area3--cards--optica, .area4--cards--optica {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    
+        .fibra--card {
+            width: 100%;
+            margin: 0px 20px;
+            margin-bottom: 20px;
+        }
+    
+        .area4 .fibra--card {
+            width: 100%;
+        }
+
+        .speedtest img{
+            width: 250px;
+            height: 150px;
+        }
+}
